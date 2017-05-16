@@ -38,9 +38,9 @@ https://github.com/3Top/word2vec-api (Google News)
 diction = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary= True)
 
 #Loading Files
-files = open('testing.txt').read().split() #The original text file
+files = open('DNA.txt').read().split() #The original text file
 stop = open('stopwords_en.txt').read().splitlines() # Stop word list
-gt = open('ground_truth.txt').read().splitlines() # Manually Labeled Ground truth keywords seperated by new line
+gt = open('ground_truth_DNA.txt').read().splitlines() # Manually Labeled Ground truth keywords seperated by new line
 
 '''
 This snippet removes stop words from the original text
