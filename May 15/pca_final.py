@@ -55,8 +55,8 @@ This snippet removes full stops (.) and commas (,) from the text.
 '''
 clean_words = []
 for f in clean_files:
-    current = re.sub("\.(?!\d)", " ", f)
-    current = re.sub("\,(?!\d)", " ", current)
+    current = re.sub("\.(?!\d)", "", f)
+    current = re.sub("\,(?!\d)", "", current)
     clean_words.append(current)
 
 #Converting the added words into a Numpy array
