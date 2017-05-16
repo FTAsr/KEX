@@ -5,7 +5,7 @@ described in the report
 Text Files:
 
 <b>stopwords_en.txt</b> has 571 stop words listed, one per line. <br> <br>
-<b> testing.txt </b> contains the definition of DNA taken from Wikipedia. <br>
-<b> ground_truth.txt </b> contains the manually labeled ground truth keywords for testing.txt, one per line. <br> <br>
-<b> testing_2.txt </b> contains the definition of Photosynthesis taken from Google. <br>
-<b> ground_truth._2txt </b> contains the manually labeled ground truth keywords for testing_2.txt, one per line. <br>
+<b> DNA.txt </b> contains the definition of DNA taken from Wikipedia. <br>
+<b> ground_truth_DNA.txt </b> contains the manually labeled ground truth keywords for DNA.txt, one per line. <br> <br>
+<b> Photosyn.txt </b> contains the definition of Photosynthesis taken from Google. <br>
+<b> ground_truth_Photosyn.txt </b> contains the manually labeled ground truth keywords for Photosyn.txt, one per line. <br>
