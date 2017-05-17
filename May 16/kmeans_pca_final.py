@@ -21,7 +21,7 @@ from scipy.spatial.distance import cosine # Distance metric
 random_vect = np.random.rand(300) # Random substitution vector in case a word is not present
 
 # Loading word2vec pretrained model
-diction = gensim.models.KeyedVectors.load_word2vec_format('C:\Users\prudh\Quora\GoogleNews-vectors-negative300.bin', binary= True)
+diction = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary= True)
 
 # Loading files
 files = open('testing.txt').read().split() # The document file
