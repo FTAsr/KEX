@@ -1,4 +1,4 @@
-<b> Unsupervised Keyword Extraction <\b>
+<b> Unsupervised Keyword Extraction </b>
 
 The program executes an unsupervised keyword extraction model that works on individual documents.
 
