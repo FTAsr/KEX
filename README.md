@@ -12,7 +12,7 @@ Folder Contents:
 
 Preliminaries:
 1) Make sure you have pre-trained Google News word2vec file. If not, download it from https://github.com/3Top/word2vec-api
-2) Make sure you have the following packages installed: Numpy, Scipy, NLTK, and Gensim.
+2) Make sure you have the following packages installed: Numpy, Scipy, NLTK, Summa, and Gensim.
 
 To have a simple run of our best method, use this command below.
 
