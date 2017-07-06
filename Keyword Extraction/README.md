@@ -1,3 +1,5 @@
+<b> Unsupervised Keyword Extraction <\b>
+
 The program executes an unsupervised keyword extraction model that works on individual documents.
 
 Folder Contents: 
@@ -12,8 +14,8 @@ Preliminaries:
 1) Make sure you have pre-trained Google News word2vec file. If not, download it from https://github.com/3Top/word2vec-api
 2) Make sure you have the following packages installed: Numpy, Scipy, NLTK, and Gensim.
 
-To have a simple run, use this below execution method.dsssssssssss
-  >>> python KEX
-  
-  .py clouds.txt 1
+To have a simple run, use this below execution method.
+
+    >>> python KEX.py clouds.txt 1
+
 This returns the keywords from the document about clouds.
