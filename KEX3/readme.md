@@ -39,7 +39,7 @@ The Extractor class has six unique methods that are representatives of the six m
 
        ext.skip_agglomeration_keywords(text, metric)
 
-**text** – the input text document <br> 
+**text** – the input text document 
 **metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance) <br>
 
 **Clustering with an absolute number of keywords**
@@ -52,7 +52,7 @@ The Extractor class has six unique methods that are representatives of the six m
 
 **Skip-Agglomeration with an absolute number of keywords**
 
-       ext.skip\_agglomeration\_keyphrases(text, metric, number of keywords)
+       ext.skip_agglomeration_keyphrases(text, metric, number of keywords)
 
 <br>**text** – the input text document 
 <br>**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)   
@@ -60,16 +60,16 @@ The Extractor class has six unique methods that are representatives of the six m
 
 **Clustering with an absolute number of keywords along with an initial word (Skips the selection part)**
 
-       ext.clustering\_with\_related\_word(text, number of keywords, initial/related word)
+       ext.clustering_with_related_word(text, number of keywords, initial/related word)
 
-**text** – the input text document  
-**number of keywords** – number of keywords/key-phrases to return irrespective of the document size.                           
-**Initial/related word** – selects the cluster from a set of clusters whose center is the given word.
+<br>**text** – the input text document  
+<br>**number of keywords** – number of keywords/key-phrases to return irrespective of the document size.                           
+<br>**Initial/related word** – selects the cluster from a set of clusters whose center is the given word.
 
 **Skip-agglomeration with an absolute number of keywords along with an initial word (Skips the selection part)**
 
-       ext.skip\_agglomeration\_with\_related\_word(text, number of keywords, initial/related word)
+       ext.skip_agglomeration_with_related_word(text, number of keywords, initial/related word)
 
-**text** – the input text document
-**number of keywords** – number of keywords/key-phrases to return irrespective of the document size.  
-**Initial/related word** – selects the cluster from a set of clusters whose center is the given word.
+<br>**text** – the input text document
+<br>**number of keywords** – number of keywords/key-phrases to return irrespective of the document size.  
+<br>**Initial/related word** – selects the cluster from a set of clusters whose center is the given word.
