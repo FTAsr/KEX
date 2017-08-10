@@ -83,15 +83,16 @@ for d in docs:
     col_names.append(d.split('.', 1)[0])
 
 method = sys.argv[1]
-metric = sys.argv[2]
 #method = 'best'
 #metric = 'avg'
 for c in range(0, len(col_names)):
     text= open("docs\\" +docs[c]).read()
     new_words = generate_ground_truth(gt, col_names[c])
     if method == '1':
+        metric = sys.argv[2]
         keyw = ext.clustering_keywords(text, metric)
     if method == '2':
+        metric = sys.argv[2]
         keyw = ext.skip_agglomeration_keywords(text, metric)
     if method == '3':
         k = KEX3()
