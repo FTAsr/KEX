@@ -32,7 +32,7 @@ The Extractor class has six unique methods that are representatives of the six m
 
        ext.clustering_keywords(text, metric)
 
- **text** – the input text document
+ **text** – the input text document</br>
  **metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)
 
 **Skip-Agglomeration with number of keywords relative to the input document**
