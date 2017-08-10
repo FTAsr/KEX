@@ -16,13 +16,13 @@ The Extractor Class has six modules:
 
 The Extractor class is imported as follows:
 
-       ## from KEX3 import Extractor
+       from KEX3 import Extractor
 
 The Extractor Class object takes three arguments: the stop-word list, word vectors, pre-trained TF-IDF scores dictionary.
 
 **Creating the Class Object**
 
-##         ext = Extractor(stopwords, word\_vectors, tf\_idf\_scores)
+        ext = Extractor(stopwords, word\_vectors, tf\_idf\_scores)
 
 **Accessing the methods using this Object**
 
@@ -30,11 +30,10 @@ The Extractor class has six unique methods that are representatives of the six m
 
 **Clustering with number of keywords relative to the input document**
 
-## ext.clustering\_keywords(text, metric)
+       ext.clustering\_keywords(text, metric)
 
-        **text** – the input text document       
-        **metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)
-
+ **text** – the input text document       
+ **metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)
 
 **Skip-Agglomeration with number of keywords relative to the input document**
 
