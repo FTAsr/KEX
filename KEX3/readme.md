@@ -47,15 +47,15 @@ The Extractor class has six unique methods that are representatives of the six m
        ext.clustering_keyphrases(text, metric, number of keywords)
 
 **text** – the input text document<br> 
-**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance<br> 
+ **metric** – one of the three selection techniques (<b>avg</b> – average diameter, <b>chain</b> – chain length, <b>skip</b> – skip-agglomerative distance)
 **number of keywords** – number of keywords/key-phrases to return irrespective of the document size. 
 
 **Skip-Agglomeration with an absolute number of keywords**
 
        ext.skip_agglomeration_keyphrases(text, metric, number of keywords)
 
-**text** – the input text document<br> 
-**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance) <br>
+**text** – the input text document<br>  
+**metric** – one of the three selection techniques (<b>avg</b> – average diameter, <b>chain</b> – chain length, <b>skip</b> – skip-agglomerative distance)
 **number of keywords** – number of keywords/key-phrases to return irrespective of the document size.
 
 **Clustering with an absolute number of keywords along with an initial word (Skips the selection part)**
