@@ -7,12 +7,12 @@ KEX3 has the methods that are the building blocks of our models and the Extracto
 
 The Extractor Class has six modules:
 
-1. 1)Clustering with number of keywords relative to the input document
-2. 2)Skip-Agglomeration with the number of keywords relative to the input document
-3. 3)Clustering with an absolute number of keywords
-4. 4)Skip-Agglomeration with an absolute number of keywords
-5. 5)Clustering with an absolute number of keywords along with an initial word (Skips the selection part)
-6. 6)Skip-Agglomeration with an absolute number of keywords along with an initial word (Skips the selection part)
+1. Clustering with number of keywords relative to the input document
+2. Skip-Agglomeration with the number of keywords relative to the input document
+3. Clustering with an absolute number of keywords
+4. Skip-Agglomeration with an absolute number of keywords
+5. Clustering with an absolute number of keywords along with an initial word (Skips the selection part)
+6. Skip-Agglomeration with an absolute number of keywords along with an initial word (Skips the selection part)
 
 The Extractor class is imported as follows:
 
@@ -32,29 +32,31 @@ The Extractor class has six unique methods that are representatives of the six m
 
        ext.clustering_keywords(text, metric)
 
- **text** – the input text document       
+ **text** – the input text document<br>       
  **metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)
 
 **Skip-Agglomeration with number of keywords relative to the input document**
 
        ext.skip_agglomeration_keywords(text, metric)
 
-**text** – the input text document  
-**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)
+**text** – the input text document <br> 
+**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance) <br>
 
 **Clustering with an absolute number of keywords**
 
        ext.clustering_keyphrases(text, metric, number of keywords)
 
-**text** – the input text document 
-**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)   **number of keywords** – number of keywords/key-phrases to return irrespective of the document size.
+**text** – the input text document<br> 
+**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)<br> 
+**number of keywords** – number of keywords/key-phrases to return irrespective of the document size. <br>
 
 **Skip-Agglomeration with an absolute number of keywords**
 
        ext.skip\_agglomeration\_keyphrases(text, metric, number of keywords)
 
-**text** – the input text document 
-**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)   **number of keywords** – number of keywords/key-phrases to return irrespective of the document size.
+<br>**text** – the input text document 
+<br>**metric** – one of the three selection techniques (avg – average diameter, chain – chain length, skip – skip-agglomerative distance)   
+<br>**number of keywords** – number of keywords/key-phrases to return irrespective of the document size.
 
 **Clustering with an absolute number of keywords along with an initial word (Skips the selection part)**
 
