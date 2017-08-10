@@ -16,7 +16,7 @@ The Extractor Class has six modules:
 
 The Extractor class is imported as follows:
 
-## from KEX3 import Extractor
+       ## from KEX3 import Extractor
 
 The Extractor Class object takes three arguments: the stop-word list, word vectors, pre-trained TF-IDF scores dictionary.
 
