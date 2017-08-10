@@ -72,4 +72,5 @@ The Extractor class has six unique methods that are representatives of the six m
 
 **text** – the input text document<br>
 **number of keywords** – number of keywords/key-phrases to return irrespective of the document size. 
+
 **Initial/related word** – selects the cluster from a set of clusters whose center is the given word.
